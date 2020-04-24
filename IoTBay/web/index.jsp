@@ -7,17 +7,25 @@
         <link rel="stylesheet" href="styles/iotbay.css">
     </head>
     <body>
+        <!--Main site image-->
         <div id="bgimage">
             <img src="images/bgimage.png">
         </div>
-        <div id="landingElements">
+
+        <!--Landing page elements-->
+        <div id="flexContainer">
             <div>
-                <h1>IoTBay</h1>
-                <p>Welcome to IoTBay</p>
-                <button type="button">Sign in</button>
-                <p>Login into an existing account</p>
-                <button type="button">Register</button>
-                <p>Create a new account</p>                    
+                <div class="flexTitles"><h1>IoTBay</h1>
+                    <p>Welcome to IoTBay</p>
+                </div>
+
+                <div class="flexButtons">
+                    <br><a href="login.jsp" target="_blank"> Login</a>
+                    <p>Login into an existing account</p><br>
+                    
+                    <a href="register.jsp" target="_blank"> Register</a>
+                    <p>Create a new account</p> 
+                </div>
             </div>
         </div>    
     </body>
