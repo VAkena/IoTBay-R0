@@ -7,9 +7,18 @@
         <link rel="stylesheet" href="styles/iotbay.css">
     </head>
     <body>
-        <h1>IoTBay</h1>
-        <p>Welcome to IoTBay</p>
-        <button type="button">Sign in</button>
-        <button type="button">Register</button>
+        <div id="bgimage">
+            <img src="images/bgimage.png">
+        </div>
+        <div id="landingElements">
+            <div>
+                <h1>IoTBay</h1>
+                <p>Welcome to IoTBay</p>
+                <button type="button">Sign in</button>
+                <p>Login into an existing account</p>
+                <button type="button">Register</button>
+                <p>Create a new account</p>                    
+            </div>
+        </div>    
     </body>
 </html>
