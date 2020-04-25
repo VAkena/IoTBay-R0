@@ -4,8 +4,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
+        <!--Main site image-->
+        <div id="bgimage">
+            <img src="images/bgimage.png">
+        </div>
         <h1>Login</h1>
         <input type="text" placeholder="Username" name="username">
         <input type="password" placeholder="Password" name="password">

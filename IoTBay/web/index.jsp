@@ -8,24 +8,25 @@
     </head>
     <body>
         <!--Main site image-->
-        <div id="bgimage">
+        <div class="bgimage">
             <img src="images/bgimage.png">
         </div>
-
         <!--Landing page elements-->
-        <div id="flexContainer">
-            <div>
-                <div class="flexTitles"><h1>IoTBay</h1>
-                    <p>Welcome to IoTBay</p>
-                </div>
-
-                <div class="flexButtons">
-                    <br><a href="login.jsp" target="_blank"> Login</a>
-                    <p>Login into an existing account</p><br>
-                    
-                    <a href="register.jsp" target="_blank"> Register</a>
-                    <p>Create a new account</p> 
-                </div>
+        <div class="flexContainer">
+            <!--Heading-->
+            <div class="headingTitles">
+                <h1>IoTBay</h1>
+                <p>Welcome to IoTBay</p>
+            </div>
+            <!--Function buttons-->
+            <div class="fContainer">
+                <br><a href="login.jsp" target="_blank"> Login</a>
+                <a href="register.jsp" target="_blank"> Register</a>
+            </div>
+            <!--Function descriptors-->
+            <div class="fContainer">
+                <p>Create a new account</p> 
+                <p>Login into an existing account</p>
             </div>
         </div>    
     </body>
