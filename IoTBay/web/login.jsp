@@ -6,6 +6,10 @@
         <title>Login</title>
     </head>
     <body>
-        <h1>User Login</h1>
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" name="username">
+        <input type="password" placeholder="Password" name="password">
+        <a href="welcome.jsp" target="_blank">Login</a>
+        <a href="passwordRecovery.jsp" target="_blank"> Forgot my password</a>
     </body>
 </html>
