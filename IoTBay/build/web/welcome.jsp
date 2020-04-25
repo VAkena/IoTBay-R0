@@ -28,13 +28,15 @@
         <p>Gender: <%= gender%></p>
         <p>Email Address: <%= email%></p>
         <p>Date of Birth: <%= dob%></p>
-        
+        <!--Go to main-->
         <a href="main.jsp" target="_blank">Main</a>
-        
+
+        <!--Retrieve user from Java Beans-->
+        <!--Store user data into session-->
+        <!--Transport user data to Main-->
         <%
             User user = new User(fname, lname, password, dob);
             session.setAttribute("user", user);
-            
         %>
     </body>
 </html>

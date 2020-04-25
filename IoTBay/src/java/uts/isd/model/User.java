@@ -1,11 +1,13 @@
 package uts.isd.model;
 
 public class User {
+
     private String fname;
     private String lname;
     private String password;
     private String dob;
 
+    //Initialise constructor with user fields
     public User(String fname, String lname, String password, String dob) {
         this.fname = fname;
         this.lname = lname;
@@ -44,6 +46,5 @@ public class User {
     public void setDob(String dob) {
         this.dob = dob;
     }
-    
-    
+
 }

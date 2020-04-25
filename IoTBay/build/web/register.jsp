@@ -14,6 +14,7 @@
 
         <h1>Registration</h1>
         <p>Create a new account</p>
+        <!--New user form-->
         <form method="post" action="welcome.jsp">
             <table>
                 <tr><td>First Name</td><td><input type="text" placeholder="First Name" name="fname"></td></tr> 
@@ -33,6 +34,7 @@
                         </form>
                     </td>
                 </tr>
+                <!--Submit-->
                 <tr><td></td><td><input type="submit" value="Register"></td></tr>     
             </table>
         </form>
