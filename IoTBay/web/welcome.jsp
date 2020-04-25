@@ -1,3 +1,4 @@
+<%@page import="uts.isd.model.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -18,6 +19,7 @@
             String email = request.getParameter("email");
             String dob = request.getParameter("dob");
             String gender = request.getParameter("gender");
+            String password = request.getParameter("password");
         %>
         <!--Registration data display-->
         <h1>Profile</h1>
@@ -26,5 +28,13 @@
         <p>Gender: <%= gender%></p>
         <p>Email Address: <%= email%></p>
         <p>Date of Birth: <%= dob%></p>
+        
+        <a href="main.jsp" target="_blank">Main</a>
+        
+        <%
+            User user = new User(fname, lname, password, dob);
+            session.setAttribute("user", user);
+            
+        %>
     </body>
 </html>
