@@ -15,14 +15,15 @@
         <%
             String fname = request.getParameter("fname");
             String lname = request.getParameter("lname");
-            String password = request.getParameter("password");
             String email = request.getParameter("email");
             String dob = request.getParameter("dob");
+            String gender = request.getParameter("gender");
         %>
-        <!--Display form Data from register-->
-        <h1>User Profile</h1>
+        <!--Registration data display-->
+        <h1>Profile</h1>
         <p>First Name: <%= fname%></p>
         <p>Last Name: <%= lname%></p>
+        <p>Gender: <%= gender%></p>
         <p>Email Address: <%= email%></p>
         <p>Date of Birth: <%= dob%></p>
     </body>
