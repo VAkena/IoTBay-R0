@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Landing</title>
-        <link rel="stylesheet" href="styles/iotbay.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <!--Main site image-->
