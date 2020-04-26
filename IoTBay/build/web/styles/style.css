@@ -54,3 +54,77 @@ a {
     border-radius: 0.5em;
     font-size: 2em;
 }   
+
+.registrationForm {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.registrationForm h1 {
+    padding: 0px;
+    margin: 0.2em;
+    font-size: 6.5em;
+}
+
+.registrationForm p {
+    font-size: 2.5em;
+}
+
+#regTable {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    font-size: 2em;
+}
+
+#regTable tr td {
+    font-weight: bold;
+    min-width: 350px;
+    text-align: left;
+}
+
+#regTable td {
+    font-weight: bold;
+    min-width: 350px;
+    text-align: left;
+}
+
+.genderO {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+input[type="text"] {
+    height: 2em;
+    width: 20em;
+}
+
+
+input[type="email"] {
+    height: 2em;
+    width: 20em;
+}
+
+input[type="password"] {
+    height: 2em;
+    width: 20em;
+}
+
+input[type="date"] {
+    height: 2em;
+    width: 20em;
+}
+
+input[type="submit"] {
+    background-image: linear-gradient(to right, #1a129f , #5248e6);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5em;
+    font-size: 0.9em;
+}
