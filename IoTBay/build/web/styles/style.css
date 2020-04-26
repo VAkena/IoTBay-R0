@@ -1,40 +1,56 @@
-* { 
+* {
     background-color: #ECEFF1;
     font-family: Arial, Helvetica, sans-serif;
-
-}
-
-#fContainer {
-    display: inline-flex;
-}
-
-#bgimage {
-    position: relative;
-    margin: 0px;
-    top: 0px;
-}
-
-h1 {
-    font-size: 50px;
     margin: 0;
-    padding: 0;
 }
-#flexContainer {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    color: #42495b;
+body {
+
+    height: 100vh;
+}
+
+.conTitles h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 8.5em;
+}
+
+.conTitles p {
+    font-size: 2.5em;
+}
+
+.conTitles .welcome {
+    margin-bottom: 0.5em;
+}
+
+#login {
+    margin-right: 0.5em;
+}
+
+.bgimage {
+    background-image: url("../images/newplexus.jpg");
+    height: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    background-position: center;
+}
+
+.container .conTitles {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
 }
 
 a {
     background-image: linear-gradient(to right, #1a129f , #5248e6);
-    color: #ffffff;
-    font-size: 16px;
-    border-radius: 1em;
-    padding: 0.6em;
-    line-height: 1.2em;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
     text-decoration: none;
-    padding: 0.8em 4em;
-}
+    display: inline-block;
+    border-radius: 0.5em;
+    font-size: 2em;
+}   
