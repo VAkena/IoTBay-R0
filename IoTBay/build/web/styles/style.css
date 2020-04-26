@@ -128,3 +128,24 @@ input[type="submit"] {
     border-radius: 0.5em;
     font-size: 0.9em;
 }
+
+.userProfile {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.userProfile h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 5em;
+    margin-bottom: 0.3em;
+}
+
+.userProfile p {
+    font-size: 2em;
+    margin-bottom: 0.9em;
+}

@@ -20,15 +20,21 @@
             String gender = request.getParameter("gender");
             String password = request.getParameter("password");
         %>
-        <!--Registration data display-->
-        <h1>Profile</h1>
-        <p>First Name: <%= fname%></p>
-        <p>Last Name: <%= lname%></p>
-        <p>Gender: <%= gender%></p>
-        <p>Email Address: <%= email%></p>
-        <p>Date of Birth: <%= dob%></p>
-        <!--Go to main-->
-        <a href="main.jsp" target="_blank">Main</a>
+        <section class="userProfile">
+            <div>
+                <!--Registration data display-->
+                <h1>Profile</h1>
+                <p>First Name: <%= fname%></p>
+                <p>Last Name: <%= lname%></p>
+                <p>Gender: <%= gender%></p>
+                <p>Email Address: <%= email%></p>
+                <p>Date of Birth: <%= dob%></p>
+            </div>
+            <div>
+                <!--Go to main-->
+                <a href="main.jsp" target="_blank">Main</a>
+            </div>
+        </section>
 
         <!--Retrieve user from Java Beans-->
         <!--Store user data into session-->
