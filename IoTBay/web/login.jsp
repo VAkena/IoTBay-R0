@@ -8,8 +8,7 @@
     </head>
     <body>
         <!--Main site image-->
-        <div id="bgimage">
-            <img src="images/bgimage.png">
+        <div class="bgimage">
         </div>
         <h1>Login</h1>
         <form method="post" action="welcome.jsp">

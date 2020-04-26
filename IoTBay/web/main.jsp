@@ -5,11 +5,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Main</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <!--Main site image-->
-        <div id="bgimage">
-            <img src="images/bgimage.png">
+        <div class="bgimage">
         </div>
         
         <!--Retrieve attributes of individual users-->

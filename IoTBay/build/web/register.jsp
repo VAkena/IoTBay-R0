@@ -8,10 +8,8 @@
     </head>
     <body>
         <!--Main site image-->
-        <div id="bgimage">
-            <img src="images/bgimage.png">
+        <div class="bgimage">
         </div>
-
         <h1>Registration</h1>
         <p>Create a new account</p>
         <!--New user form-->

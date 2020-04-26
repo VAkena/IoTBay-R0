@@ -6,6 +6,9 @@
         <title>Logout</title>
     </head>
     <body>
+        <!--Main site image-->
+        <div class="bgimage">
+        </div>
         <!--Session termination-->
         <h1>Logout</h1>
         <p>You have successfully logged out. <a href="index.jsp">Return Home</a></p>

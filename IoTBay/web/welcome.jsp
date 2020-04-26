@@ -9,8 +9,7 @@
     </head>
     <body>
         <!--Main site image-->
-        <div id="bgimage">
-            <img src="images/bgimage.png">
+        <div class="bgimage">
         </div>
         <!--Retrieve form data from Register-->
         <%
