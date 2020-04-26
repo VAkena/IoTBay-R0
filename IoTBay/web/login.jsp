@@ -10,13 +10,17 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-        <h1>Login</h1>
-        <form method="post" action="welcome.jsp">
-            <table>
-                <tr><td>Username</td><td><input type="text" placeholder="Username" name="uname"></td></tr>          
-                <tr><td>Password</td><td><input type="password" placeholder="Password" name="password"></td></tr>
-                <tr><td></td><td><input type="submit" value="Login"></td></tr>     
-            </table>
-        </form>
+        <div class="loginContainer">
+            <h1>Login</h1>
+            <form method="post" action="welcome.jsp">
+                <div class="loginForm">
+                    <table>
+                        <tr><td>Username</td><td><input type="text" placeholder="Username" name="uname"></td></tr>          
+                        <tr><td>Password</td><td><input type="password" placeholder="Password" name="password"></td></tr>
+                        <tr><td></td><td><input type="submit" value="Login"></td></tr>     
+                    </table>
+                </div>
+            </form>
+        </div>
     </body>
 </html>

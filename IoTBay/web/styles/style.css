@@ -183,3 +183,24 @@ input[type="submit"] {
 .mainLogout {
     text-align: center;
 }
+
+.loginContainer {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.loginContainer h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 6.5em;
+}
+
+.loginContainer table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    font-size: 2em;
+    text-align: center;
+}
