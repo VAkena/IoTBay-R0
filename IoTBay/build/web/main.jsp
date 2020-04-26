@@ -11,17 +11,21 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-        
+
         <!--Retrieve attributes of individual users-->
         <%
-            User user = (User)session.getAttribute("user");
+            User user = (User) session.getAttribute("user");
         %>
-        <h1>User Profile</h1>
-        <table>
-            <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th></thead>
-            <!--Placeholder to auto fill fields-->
-            <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> </tr>
-        </table>
-    <a href="index.jsp" target="_blank">Logout</a>
-</body>
+        <div class="profileDisplay">
+            <h1>User Profile</h1>
+            <table class="mainProfile">
+                <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th></thead>
+                <!--Placeholder to auto fill fields-->
+                <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> </tr>
+            </table>
+            <div class="mainLogout">
+                <a href="index.jsp" target="_blank" class="logout">Logout</a>
+            </div>
+        </div>
+    </body>
 </html>

@@ -149,3 +149,37 @@ input[type="submit"] {
     font-size: 2em;
     margin-bottom: 0.9em;
 }
+
+.mainProfile {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.mainProfile thead th{
+    font-weight: bold;
+    border-radius: 0.25em; 
+    width: 2em;
+    min-width: 400px;
+}
+
+.mainProfile h1 {
+    font-size: 10em;
+}
+
+.mainProfile tr td a {
+    text-align: center;
+}
+
+.profileDisplay h1 {
+    font-size: 4.5em;
+    text-align: center;
+    margin-top: 3.5em;
+    margin-bottom: 1.5em;
+}
+
+.mainLogout {
+    text-align: center;
+}
