@@ -24,7 +24,7 @@
                 <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> </tr>
             </table>
             <div class="mainLogout">
-                <a href="index.jsp" target="_blank" class="logout">Logout</a>
+                <a href="logout.jsp" target="_blank" class="logout">Logout</a>
             </div>
         </div>
     </body>

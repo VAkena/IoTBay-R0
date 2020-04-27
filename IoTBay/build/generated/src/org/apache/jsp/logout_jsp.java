@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class logout_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -46,25 +46,28 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>Login</title>\n");
+      out.write("        <title>Logout</title>\n");
       out.write("        <link rel=\"stylesheet\" href=\"styles/style.css\">\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
       out.write("        <!--Main site image-->\n");
       out.write("        <div class=\"bgimage\">\n");
       out.write("        </div>\n");
-      out.write("        <div class=\"loginContainer\">\n");
-      out.write("            <h1>Login</h1>\n");
-      out.write("            <form method=\"post\" action=\"welcome.jsp\">\n");
-      out.write("                <div class=\"loginForm\">\n");
-      out.write("                    <table>\n");
-      out.write("                        <tr><td>Username</td><td><input type=\"text\" placeholder=\"Username\" name=\"uname\"></td></tr>          \n");
-      out.write("                        <tr><td>Password</td><td><input type=\"password\" placeholder=\"Password\" name=\"password\"></td></tr>\n");
-      out.write("                        <tr><td></td><td><input type=\"submit\" value=\"Login\"></td></tr>     \n");
-      out.write("                    </table>\n");
-      out.write("                </div>\n");
-      out.write("            </form>\n");
+      out.write("        <!--Session termination-->\n");
+      out.write("        <div class=\"logoutInfo\">\n");
+      out.write("            <h1>Logout</h1><br>\n");
+      out.write("            <p>You have successfully logged out.</p>\n");
+      out.write("\n");
       out.write("        </div>\n");
+      out.write("        <div class=\"returnHome\">\n");
+      out.write("            <a href=\"index.jsp\">Return Home</a>\n");
+      out.write("        </div>\n");
+      out.write("        ");
+
+            //Destroys session data - cannot be accessed again
+            session.invalidate();
+        
+      out.write("\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

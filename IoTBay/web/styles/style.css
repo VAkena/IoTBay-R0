@@ -204,3 +204,20 @@ input[type="submit"] {
     font-size: 2em;
     text-align: center;
 }
+
+.logoutInfo {
+    margin: 2em;
+    text-align: center;
+}
+
+.logoutInfo h1{
+    font-size: 5.5em;
+}
+
+.logoutInfo p{
+    font-size: 1.8em;
+}
+
+.returnHome {
+    text-align: center;
+}

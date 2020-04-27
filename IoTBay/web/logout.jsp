@@ -4,14 +4,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Logout</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <!--Main site image-->
         <div class="bgimage">
         </div>
         <!--Session termination-->
-        <h1>Logout</h1>
-        <p>You have successfully logged out. <a href="index.jsp">Return Home</a></p>
+        <div class="logoutInfo">
+            <h1>Logout</h1><br>
+            <p>You have successfully logged out.</p>
+
+        </div>
+        <div class="returnHome">
+            <a href="index.jsp">Return Home</a>
+        </div>
         <%
             //Destroys session data - cannot be accessed again
             session.invalidate();
