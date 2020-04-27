@@ -26,9 +26,10 @@
                 <h1>Profile</h1>
                 <p>First Name: <%= fname%></p>
                 <p>Last Name: <%= lname%></p>
+                <p>Password: <%= password%></p>
                 <p>Gender: <%= gender%></p>
-                <p>Email Address: <%= email%></p>
                 <p>Date of Birth: <%= dob%></p>
+                <p>Email Address: <%= email%></p>
             </div>
             <div>
                 <!--Go to main-->
