@@ -41,7 +41,7 @@
         <!--Store user data into session-->
         <!--Transport user data to Main-->
         <%
-            User user = new User(fname, lname, password, dob);
+            User user = new User(fname, lname, password, dob, email);
             session.setAttribute("user", user);
         %>
     </body>

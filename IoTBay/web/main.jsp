@@ -19,9 +19,9 @@
         <div class="profileDisplay">
             <h1>User Profile</h1>
             <table class="mainProfile">
-                <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th></thead>
+                <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th><th>Email</th></thead>
                 <!--Placeholder to auto fill fields-->
-                <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> </tr>
+                <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> <td>${user.email}</td></tr>
             </table>
             <div class="mainLogout">
                 <a href="logout.jsp" target="_blank" class="logout">Logout</a>

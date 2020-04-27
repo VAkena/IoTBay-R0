@@ -6,13 +6,15 @@ public class User {
     private String lname;
     private String password;
     private String dob;
+    private String email;
 
     //Initialise constructor with user fields
-    public User(String fname, String lname, String password, String dob) {
+    public User(String fname, String lname, String password, String dob, String email) {
         this.fname = fname;
         this.lname = lname;
         this.password = password;
         this.dob = dob;
+        this.email = email;
     }
 
     public String getFname() {
@@ -45,6 +47,14 @@ public class User {
 
     public void setDob(String dob) {
         this.dob = dob;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 }
