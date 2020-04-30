@@ -11,7 +11,7 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-        <!--Retrieve form data from Register-->
+        <!--Retrieve form data from registration form-->
         <%
             String fname = request.getParameter("fname");
             String lname = request.getParameter("lname");
@@ -20,23 +20,23 @@
             String gender = request.getParameter("gender");
             String password = request.getParameter("password");
         %>
-        <section class="userProfile">
+        <section class="mainContainer">
             <div>
                 <!--Registration data display-->
-                <h1>Profile</h1>
-                <p>First Name: <%= fname%></p>
-                <p>Last Name: <%= lname%></p>
-                <p>Password: <%= password%></p>
-                <p>Gender: <%= gender%></p>
-                <p>Date of Birth: <%= dob%></p>
-                <p>Email Address: <%= email%></p>
+                <h1>Welcome, <%= fname%></h1>
+                <p>First Name: <%= fname%></p><br>
+                <p>Last Name: <%= lname%></p><br>
+                <p>Password: <%= password%></p><br>
+                <p>Gender: <%= gender%></p><br>
+                <p>Date of Birth: <%= dob%></p><br>
+                <p>Email Address: <%= email%></p><br>
             </div>
+            <!--Go to main-->
             <div>
-                <!--Go to main-->
                 <a href="main.jsp" target="_blank">Main</a>
             </div>
         </section>
-
+            
         <!--Retrieve user from Java Beans-->
         <!--Store user data into session-->
         <!--Transport user data to Main-->

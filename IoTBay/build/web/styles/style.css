@@ -3,27 +3,9 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
 body {
-
     height: 100vh;
-}
-
-.conTitles h1 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 8.5em;
-}
-
-.conTitles p {
-    font-size: 2.5em;
-}
-
-.conTitles .welcome {
-    margin-bottom: 0.5em;
-}
-
-#login {
-    margin-right: 0.5em;
 }
 
 .bgimage {
@@ -35,15 +17,6 @@ body {
     background-position: center;
 }
 
-.container .conTitles {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
 a {
     background-image: linear-gradient(to right, #1a129f , #5248e6);
     color: white;
@@ -53,55 +26,40 @@ a {
     display: inline-block;
     border-radius: 0.5em;
     font-size: 2em;
-}   
+} 
 
-.registrationForm {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
+.mainContainer {
+    position: relative;
     text-align: center;
-    color: #000;
+    margin: auto;
 }
 
-.registrationForm h1 {
-    padding: 0px;
-    margin: 0.2em;
-    font-size: 6.5em;
+.mainContainer h1 {
+    font-size: 5em;
+    margin-top: 1em;
 }
 
-.registrationForm p {
-    font-size: 2.5em;
+.mainContainer p {
+    font-size: 1.8em;
 }
 
-#regTable {
+.mainProfile {
     margin: 2rem auto;
     border-collapse: collapse;
     font-size: 2em;
+    text-align: center;
 }
 
-#regTable tr td {
+.mainProfile thead th{
     font-weight: bold;
-    min-width: 350px;
-    text-align: left;
-}
-
-#regTable td {
-    font-weight: bold;
-    min-width: 350px;
-    text-align: left;
-}
-
-.genderO {
-    font-weight: normal;
-    font-size: 0.8em;
+    width: 2em;
+    min-width: 10em;
 }
 
 input[type="text"] {
     height: 2em;
     width: 20em;
 }
-
 
 input[type="email"] {
     height: 2em;
@@ -127,97 +85,4 @@ input[type="submit"] {
     display: inline-block;
     border-radius: 0.5em;
     font-size: 0.9em;
-}
-
-.userProfile {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.userProfile h1 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 5em;
-    margin-bottom: 0.3em;
-}
-
-.userProfile p {
-    font-size: 2em;
-    margin-bottom: 0.9em;
-}
-
-.mainProfile {
-    margin: 2rem auto;
-    border-collapse: collapse;
-    font-size: 2em;
-    text-align: center;
-
-}
-
-.mainProfile thead th{
-    font-weight: bold;
-    border-radius: 0.25em; 
-    width: 2em;
-    min-width: 400px;
-}
-
-.mainProfile h1 {
-    font-size: 10em;
-}
-
-.mainProfile tr td a {
-    text-align: center;
-}
-
-.profileDisplay h1 {
-    font-size: 4.5em;
-    text-align: center;
-    margin-top: 3.5em;
-    margin-bottom: 1.5em;
-}
-
-.mainLogout {
-    text-align: center;
-}
-
-.loginContainer {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.loginContainer h1 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 6.5em;
-}
-
-.loginContainer table {
-    margin: 2rem auto;
-    border-collapse: collapse;
-    font-size: 2em;
-    text-align: center;
-}
-
-.logoutInfo {
-    margin: 2em;
-    text-align: center;
-}
-
-.logoutInfo h1{
-    font-size: 5.5em;
-}
-
-.logoutInfo p{
-    font-size: 1.8em;
-}
-
-.returnHome {
-    text-align: center;
 }

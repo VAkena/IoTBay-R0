@@ -10,15 +10,17 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-        <!--Session termination-->
-        <div class="logoutInfo">
-            <h1>Logout</h1><br>
-            <p>You have successfully logged out.</p>
+        <section>
+            <div class="mainContainer">
+                <h1>Logout</h1><br>
+                <p>You have successfully logged out.</p><br>
+            </div>
+            <div class="mainContainer">
+                <a href="index.jsp">Return Home</a>
+            </div>
+        </section>
 
-        </div>
-        <div class="returnHome">
-            <a href="index.jsp">Return Home</a>
-        </div>
+        <!--Session termination-->
         <%
             //Destroys session data - cannot be accessed again
             session.invalidate();

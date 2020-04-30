@@ -2,6 +2,7 @@ package uts.isd.model;
 
 public class User {
 
+    //Registration data fields
     private String fname;
     private String lname;
     private String password;

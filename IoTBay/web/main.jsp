@@ -11,21 +11,24 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-
-        <!--Retrieve attributes of individual users-->
+        <!--Get the registration information of users-->
         <%
             User user = (User) session.getAttribute("user");
         %>
-        <div class="profileDisplay">
-            <h1>User Profile</h1>
-            <table class="mainProfile">
-                <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th><th>Email</th></thead>
-                <!--Placeholder to auto fill fields-->
-                <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> <td>${user.email}</td></tr>
-            </table>
-            <div class="mainLogout">
-                <a href="logout.jsp" target="_blank" class="logout">Logout</a>
+        <section>
+            <!--USer profile-->
+            <div class="mainContainer">
+                <h1>User Profile</h1>
+                <table class="mainProfile">
+                    <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th><th>Email</th></thead>
+                    <!--Placeholder to auto fill fields-->
+                    <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> <td>${user.email}</td></tr>
+                </table>
+                <!--Logout-->
+                <div class="mainContainer">
+                    <a href="logout.jsp" target="_blank" class="logout">Logout</a>
+                </div>
             </div>
-        </div>
+        </section>
     </body>
 </html>

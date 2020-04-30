@@ -10,15 +10,15 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-        <!--Landing page elements-->
-        <div class="container">
-            <!--Content-->
-            <div class="conTitles">
+        <!--Content-->
+        <section>
+            <!--Landing page elements-->
+            <div class="mainContainer">
                 <h1>IoTBay</h1><br>
                 <p class="welcome">Welcome to IoTBay</p><br>
-                <a href="login.jsp" target="_blank" id="login"> Login</a>
-                <a href="register.jsp" target="_blank" id="register"> Register</a>
+                <a href="login.jsp" target="_blank" id="login">Login</a>
+                <a href="register.jsp" target="_blank" id="register">Register</a>
             </div>
-        </div>    
+        </section>
     </body>
 </html>

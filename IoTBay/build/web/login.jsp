@@ -10,20 +10,23 @@
         <!--Main site image-->
         <div class="bgimage">
         </div>
-        <div class="loginContainer">
-            <h1>Login</h1>
-            <form method="post" action="welcome.jsp">
-                <div class="loginForm">
-                    <form method="post" action="welcome.jsp">
-                        <table id="regTable"> 
-                            <tr><td>Email</td><td><input type="email" placeholder="Email" name="email"></td></tr>           
-                            <tr><td>Password</td><td><input type="password" placeholder="Password" name="password"></td></tr>
-                            <!--Submit-->
-                            <tr><td></td><td><input type="submit" value="Login"></td></tr>     
-                        </table>
-                    </form>
-                </div>
-            </form>
-        </div>
+        <section>
+            <!--Login form-->
+            <div class="mainContainer">
+                <h1>Login</h1><br>
+                <form method="post" action="welcome.jsp">
+                    <div class="loginForm">
+                        <form method="post" action="welcome.jsp">
+                            <table class="mainContainer"> 
+                                <tr><td>Email</td><td><input type="email" placeholder="Email" name="email"></td></tr>           
+                                <tr><td>Password</td><td><input type="password" placeholder="Password" name="password"></td></tr>
+                                <!--Submit-->
+                                <tr><td></td><td><input type="submit" value="Login"></td></tr>     
+                            </table>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </section>
     </body>
 </html>
