@@ -20,9 +20,9 @@
             <div class="mainContainer">
                 <h1>User Profile</h1>
                 <table class="mainProfile">
-                    <thead><th>First Name</th><th>Last Name</th><th>Password</th><th>D.O.B</th><th>Email</th></thead>
+                    <thead><th>First Name</th> <th>Last Name</th> <th>Address</th> <th>Phone</th> <th>Password</th> <th>D.O.B</th> <th>Email</th></thead>
                     <!--Placeholder to auto fill fields-->
-                    <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.password}</td> <td>${user.dob}</td> <td>${user.email}</td></tr>
+                    <tr><td>${user.fname}</td> <td>${user.lname}</td> <td>${user.phone}</td> <td>${user.password}</td> <td>${user.dob}</td> <td>${user.email}</td> <td>${user.address}</td></tr>
                 </table>
                 <!--Logout-->
                 <div class="mainContainer">

@@ -15,10 +15,11 @@
         <%
             String fname = request.getParameter("fname");
             String lname = request.getParameter("lname");
-            String email = request.getParameter("email");
-            String dob = request.getParameter("dob");
-            String gender = request.getParameter("gender");
+            String phone = request.getParameter("phone");
             String password = request.getParameter("password");
+            String dob = request.getParameter("dob");
+            String email = request.getParameter("email");
+            String address = request.getParameter("address");
         %>
         <section class="mainContainer">
             <div>
@@ -26,22 +27,23 @@
                 <h1>Welcome, <%= fname%></h1>
                 <p>First Name: <%= fname%></p><br>
                 <p>Last Name: <%= lname%></p><br>
+                <p>Phone: <%= phone%></p><br>
                 <p>Password: <%= password%></p><br>
-                <p>Gender: <%= gender%></p><br>
                 <p>Date of Birth: <%= dob%></p><br>
                 <p>Email Address: <%= email%></p><br>
+                <p>Address: <%= address%></p><br>
             </div>
             <!--Go to main-->
             <div>
                 <a href="main.jsp" target="_blank">Main</a>
             </div>
         </section>
-            
+
         <!--Retrieve user from Java Beans-->
         <!--Store user data into session-->
         <!--Transport user data to Main-->
         <%
-            User user = new User(fname, lname, password, dob, email);
+            User user = new User(fname, lname, phone, password, dob, email, address);
             session.setAttribute("user", user);
         %>
     </body>

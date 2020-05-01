@@ -8,14 +8,18 @@ public class User {
     private String password;
     private String dob;
     private String email;
+    private String address;
+    private String phone;
 
     //Initialise constructor with user fields
-    public User(String fname, String lname, String password, String dob, String email) {
+    public User(String fname, String lname, String password, String dob, String email, String address, String phone) {
         this.fname = fname;
         this.lname = lname;
         this.password = password;
         this.dob = dob;
         this.email = email;
+        this.address = address;
+        this.phone = phone;
     }
 
     public String getFname() {
@@ -58,4 +62,19 @@ public class User {
         this.email = email;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 }
